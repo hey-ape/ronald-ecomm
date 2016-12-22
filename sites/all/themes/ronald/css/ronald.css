@@ -1,61 +1,97 @@
-/* line 8, ../scss/ronald.scss */
+/* NAVBAR STYLING */
+/* line 10, ../scss/ronald.scss */
 .navbar-default {
   background-color: #89BD9E !important; }
+  /* line 13, ../scss/ronald.scss */
+  .navbar-default #navbar-collapse > nav > ul > li > a {
+    color: #FFFFFF; }
+  /* line 16, ../scss/ronald.scss */
+  .navbar-default #navbar-collapse > nav > ul > li.first.leaf.active {
+    background-color: #4B4E6D !important; }
+    /* line 18, ../scss/ronald.scss */
+    .navbar-default #navbar-collapse > nav > ul > li.first.leaf.active .active {
+      background-color: #4B4E6D !important; }
 
-/* line 12, ../scss/ronald.scss */
+/* line 24, ../scss/ronald.scss */
+.active-trail.active {
+  background-color: #4B4E6D !important; }
+  /* line 26, ../scss/ronald.scss */
+  .active-trail.active a {
+    color: #FFFFFF; }
+
+/* line 31, ../scss/ronald.scss */
+#block-system-main > div > div.text-center > ul > li.active {
+  background-color: #4B4E6D !important; }
+
+/* line 35, ../scss/ronald.scss */
+#navbar > div > div.navbar-header > a {
+  color: #FFFFFF; }
+
+/* line 39, ../scss/ronald.scss */
 body > div.main-container.container::before {
   margin-top: 2em; }
 
-/* line 16, ../scss/ronald.scss */
+/* GENERAL CONTENT */
+/* line 45, ../scss/ronald.scss */
 a {
   color: #4B4E6D;
   outline: 0 !important; }
-  /* line 20, ../scss/ronald.scss */
+  /* line 49, ../scss/ronald.scss */
   a h1, a h2, a h3, a h4 {
     color: #4B4E6D !important; }
-  /* line 23, ../scss/ronald.scss */
+  /* line 52, ../scss/ronald.scss */
   a h3:hover {
     color: #222222; }
 
-/* line 28, ../scss/ronald.scss */
-.btn-primary {
+/* MAKE ALL BUTTON SEAGREAN WITH GREEN BORDER */
+/* line 58, ../scss/ronald.scss */
+.btn-primary, .btn-success {
   background-color: #89BD9E !important;
   border-color: green !important;
   padding-bottom: -1px; }
 
-/* line 34, ../scss/ronald.scss */
-#block-system-main > div > div.view-content > table > tbody > tr.row-*.row-* {
-  margin: 5%; }
-
-/* line 38, ../scss/ronald.scss */
+/* STYLE RONALDS GRID */
+/* line 66, ../scss/ronald.scss */
 .views-view-grid {
   width: 100%; }
 
 /* PRODUCT DISPLAY */
-/* line 46, ../scss/ronald.scss */
+/* line 73, ../scss/ronald.scss */
 .page-node .node-product-display img {
   margin: 10px auto;
   border: 1px solid #222222;
   display: inline; }
-/* line 52, ../scss/ronald.scss */
+/* line 79, ../scss/ronald.scss */
 .page-node .node-product-display .field-commerce-price {
   margin-left: 30%;
   margin-top: 1em;
   width: 20%;
   display: inline-block; }
-  /* line 58, ../scss/ronald.scss */
+  /* line 85, ../scss/ronald.scss */
   .page-node .node-product-display .field-commerce-price .field-items {
     font-size: 16px; }
-/* line 63, ../scss/ronald.scss */
+/* line 90, ../scss/ronald.scss */
 .page-node .node-product-display .field-type-commerce-product-reference {
   width: 20%;
   display: inline-block; }
-  /* line 67, ../scss/ronald.scss */
+  /* line 94, ../scss/ronald.scss */
   .page-node .node-product-display .field-type-commerce-product-reference .field-label {
     display: none; }
-/* line 72, ../scss/ronald.scss */
+/* line 99, ../scss/ronald.scss */
 .page-node .node-product-display .field-type-text-with-summary {
   font-size: 18px; }
-/* line 77, ../scss/ronald.scss */
+/* line 104, ../scss/ronald.scss */
 .page-node .node-product-display div.field.field-name-field-ronald-img.field-type-image.field-label-above > div.field-label {
   display: none; }
+
+/* line 110, ../scss/ronald.scss */
+#block-system-main > div > div.view-content > table > tbody > tr {
+  margin-bottom: 2em !important; }
+
+/* STYLE PAGER ON RONALD DISPLAYS */
+/* line 118, ../scss/ronald.scss */
+.region-content #block-system-main > div > div.text-center > ul li > a {
+  color: #4B4E6D; }
+/* line 123, ../scss/ronald.scss */
+.region-content #block-system-main > div > div.text-center > ul > li.active > span {
+  background-color: #4B4E6D !important; }

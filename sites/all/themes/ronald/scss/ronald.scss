@@ -5,14 +5,43 @@ $navy: #4B4E6D;
 $clayRed: #C05746;
 $white: #FFFFFF;
 
+
+/* NAVBAR STYLING */
 .navbar-default {
     background-color: $seaGreen !important;
+
+    #navbar-collapse > nav > ul > li > a {
+        color: $white;
+    }
+    #navbar-collapse > nav > ul > li.first.leaf.active {
+        background-color: $navy !important;
+        .active {
+            background-color: $navy !important;
+        }
+    }
+}
+
+.active-trail.active {
+    background-color: $navy !important;
+    a {
+        color: $white;
+    }
+}
+
+#block-system-main > div > div.text-center > ul > li.active {
+    background-color: $navy !important;
+}
+
+#navbar > div > div.navbar-header > a {
+    color: $white;
 }
 
 body > div.main-container.container::before {
     margin-top: 2em;
 }
 
+
+/* GENERAL CONTENT */
 a {
     color: $navy;
     outline: 0 !important;
@@ -25,20 +54,18 @@ a {
     }
 }
 
-.btn-primary {
+/* MAKE ALL BUTTON SEAGREAN WITH GREEN BORDER */
+.btn-primary, .btn-success {
     background-color: $seaGreen !important;
     border-color: green !important;
     padding-bottom: -1px;
 }
 
-#block-system-main > div > div.view-content > table > tbody > tr.row-*.row-* {
-    margin: 5%;
-}
 
+/* STYLE RONALDS GRID */
 .views-view-grid {
   width: 100%;
 }
-
 
 
 /* PRODUCT DISPLAY */
@@ -76,5 +103,24 @@ a {
     //hide custom field name for img
     div.field.field-name-field-ronald-img.field-type-image.field-label-above > div.field-label {
         display: none;
+    }
+}
+
+
+#block-system-main > div > div.view-content > table > tbody > tr {
+    margin-bottom: 2em !important;
+}
+
+
+/* STYLE PAGER ON RONALD DISPLAYS */
+.region-content {
+    #block-system-main > div > div.text-center > ul {
+        li > a {
+            color: $navy;
+        }
+    }
+
+    #block-system-main > div > div.text-center > ul > li.active > span {
+        background-color: $navy !important;
     }
 }
