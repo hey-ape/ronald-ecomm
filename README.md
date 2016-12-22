@@ -1,5 +1,5 @@
-# XL eComm
-_This is an eComm buildout for my dad's website._
+# Ronald eComm
+_This is an eComm buildout for practice towards building my dad's website._
 
 ## Special Modules used
 * Drupal Commerce
