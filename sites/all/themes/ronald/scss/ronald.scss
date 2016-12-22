@@ -6,11 +6,11 @@ $clayRed: #C05746;
 $white: #FFFFFF;
 
 .navbar-default {
-    color: $seaGreen;
+    background-color: $seaGreen !important;
 }
 
 body > div.main-container.container::before {
-    margin-top: 5em;
+    margin-top: 2em;
 }
 
 a {

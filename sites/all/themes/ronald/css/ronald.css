@@ -1,10 +1,10 @@
 /* line 8, ../scss/ronald.scss */
 .navbar-default {
-  color: #89BD9E; }
+  background-color: #89BD9E !important; }
 
 /* line 12, ../scss/ronald.scss */
 body > div.main-container.container::before {
-  margin-top: 5em; }
+  margin-top: 2em; }
 
 /* line 16, ../scss/ronald.scss */
 a {

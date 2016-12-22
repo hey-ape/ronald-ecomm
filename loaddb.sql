@@ -1,4 +1,4 @@
-DROP DATABASE xl_ecomm;
-CREATE DATABASE xl_ecomm;
-USE xl_admin;
-source sites/db-backup/xl_ecomm.sql;
+DROP DATABASE ronald_ecomm;
+CREATE DATABASE ronald_ecomm;
+USE ronald_admin;
+source sites/db-backup/ronald_ecomm.sql;
