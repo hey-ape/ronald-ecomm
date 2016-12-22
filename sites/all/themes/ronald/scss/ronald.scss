@@ -1,0 +1,80 @@
+$black: #000000;
+$charcoal: #222222;
+$seaGreen: #89BD9E;
+$navy: #4B4E6D;
+$clayRed: #C05746;
+$white: #FFFFFF;
+
+.navbar-default {
+    color: $seaGreen;
+}
+
+body > div.main-container.container::before {
+    margin-top: 5em;
+}
+
+a {
+    color: $navy;
+    outline: 0 !important;
+
+    h1, h2, h3, h4 {
+        color: $navy !important;
+    }
+    h3:hover {
+        color: $charcoal;
+    }
+}
+
+.btn-primary {
+    background-color: $seaGreen !important;
+    border-color: green !important;
+    padding-bottom: -1px;
+}
+
+#block-system-main > div > div.view-content > table > tbody > tr.row-*.row-* {
+    margin: 5%;
+}
+
+.views-view-grid {
+  width: 100%;
+}
+
+
+
+/* PRODUCT DISPLAY */
+.page-node .node-product-display {
+    img {
+        margin: 10px auto;
+        border: 1px solid $charcoal;
+        display: inline;
+    }
+
+    .field-commerce-price {
+        margin-left: 30%;
+        margin-top: 1em;
+        width: 20%;
+        display: inline-block;
+
+        .field-items {
+            font-size: 16px;
+        }
+    }
+
+    .field-type-commerce-product-reference {
+        width: 20%;
+        display: inline-block;
+
+        .field-label {
+            display: none;
+        }
+    }
+
+    .field-type-text-with-summary {
+        font-size: 18px;
+    }
+
+    //hide custom field name for img
+    div.field.field-name-field-ronald-img.field-type-image.field-label-above > div.field-label {
+        display: none;
+    }
+}

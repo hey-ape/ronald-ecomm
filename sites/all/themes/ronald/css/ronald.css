@@ -1,0 +1,61 @@
+/* line 8, ../scss/ronald.scss */
+.navbar-default {
+  color: #89BD9E; }
+
+/* line 12, ../scss/ronald.scss */
+body > div.main-container.container::before {
+  margin-top: 5em; }
+
+/* line 16, ../scss/ronald.scss */
+a {
+  color: #4B4E6D;
+  outline: 0 !important; }
+  /* line 20, ../scss/ronald.scss */
+  a h1, a h2, a h3, a h4 {
+    color: #4B4E6D !important; }
+  /* line 23, ../scss/ronald.scss */
+  a h3:hover {
+    color: #222222; }
+
+/* line 28, ../scss/ronald.scss */
+.btn-primary {
+  background-color: #89BD9E !important;
+  border-color: green !important;
+  padding-bottom: -1px; }
+
+/* line 34, ../scss/ronald.scss */
+#block-system-main > div > div.view-content > table > tbody > tr.row-*.row-* {
+  margin: 5%; }
+
+/* line 38, ../scss/ronald.scss */
+.views-view-grid {
+  width: 100%; }
+
+/* PRODUCT DISPLAY */
+/* line 46, ../scss/ronald.scss */
+.page-node .node-product-display img {
+  margin: 10px auto;
+  border: 1px solid #222222;
+  display: inline; }
+/* line 52, ../scss/ronald.scss */
+.page-node .node-product-display .field-commerce-price {
+  margin-left: 30%;
+  margin-top: 1em;
+  width: 20%;
+  display: inline-block; }
+  /* line 58, ../scss/ronald.scss */
+  .page-node .node-product-display .field-commerce-price .field-items {
+    font-size: 16px; }
+/* line 63, ../scss/ronald.scss */
+.page-node .node-product-display .field-type-commerce-product-reference {
+  width: 20%;
+  display: inline-block; }
+  /* line 67, ../scss/ronald.scss */
+  .page-node .node-product-display .field-type-commerce-product-reference .field-label {
+    display: none; }
+/* line 72, ../scss/ronald.scss */
+.page-node .node-product-display .field-type-text-with-summary {
+  font-size: 18px; }
+/* line 77, ../scss/ronald.scss */
+.page-node .node-product-display div.field.field-name-field-ronald-img.field-type-image.field-label-above > div.field-label {
+  display: none; }

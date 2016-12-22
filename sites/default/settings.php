@@ -245,13 +245,13 @@
  * @endcode
  */
 $databases = array (
-  'default' => 
+  'default' =>
   array (
-    'default' => 
+    'default' =>
     array (
-      'database' => 'xl_ecomm',
-      'username' => 'xl_admin',
-      'password' => 'bencherry88',
+      'database' => 'ronald_ecomm',
+      'username' => 'ronald_admin',
+      'password' => 'chuckberry',
       'host' => '127.0.0.1',
       'port' => '8889',
       'driver' => 'mysql',
