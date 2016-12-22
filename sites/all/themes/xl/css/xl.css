@@ -1,0 +1,22 @@
+/* line 8, ../scss/xl.scss */
+.navbar-default {
+  color: #F6D8AE; }
+
+/* line 12, ../scss/xl.scss */
+body > div.main-container.container::before {
+  margin-top: 5em; }
+
+/* line 16, ../scss/xl.scss */
+a {
+  color: #334D5C;
+  outline: 0 !important; }
+  /* line 20, ../scss/xl.scss */
+  a h3 {
+    color: #334D5C; }
+  /* line 23, ../scss/xl.scss */
+  a h3:hover {
+    color: #B5C2B7; }
+
+/* line 28, ../scss/xl.scss */
+#block-system-main > div > div.view-content > table > tbody > tr.row-1.row-first {
+  margin: 5%; }

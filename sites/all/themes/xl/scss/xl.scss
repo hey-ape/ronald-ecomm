@@ -1,0 +1,30 @@
+$teal: #334D5C;
+$slate: #B5C2B7;
+$darkGray: #686963;
+$tan: #F6D8AE;
+$clayRed: #C05746;
+$white: #FAFAFA;
+
+.navbar-default {
+    color: $tan;
+}
+
+body > div.main-container.container::before {
+    margin-top: 5em;
+}
+
+a {
+    color: $teal;
+    outline: 0 !important;
+
+    h3 {
+        color: $teal;
+    }
+    h3:hover {
+        color: $slate;
+    }
+}
+
+#block-system-main > div > div.view-content > table > tbody > tr.row-1.row-first {
+    margin: 5%;
+}
