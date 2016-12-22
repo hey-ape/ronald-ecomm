@@ -1,16 +1,16 @@
-## XL eComm
+# XL eComm
 _This is an eComm buildout for my dad's website._
 
-## special Modules used
-*_Drupal Commerce_
-*__
-*__
-*__
+## Special Modules used
+*Drupal Commerce
+*
+*
+*
 
-## typical Modules used
-*_Views_
-*_Chaos Tools_
-*__
-*__
+## Typical Modules used
+*Views
+*Chaos Tools
+*
+*
 
 _Bootstrap theme used, with sub-theming_
