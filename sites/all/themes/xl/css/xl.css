@@ -18,5 +18,38 @@ a {
     color: #B5C2B7; }
 
 /* line 28, ../scss/xl.scss */
-#block-system-main > div > div.view-content > table > tbody > tr.row-1.row-first {
+#block-system-main > div > div.view-content > table > tbody > tr.row-*.row-* {
   margin: 5%; }
+
+/* line 32, ../scss/xl.scss */
+.views-view-grid {
+  width: 100%; }
+
+/* PRODUCT DISPLAY */
+/* line 40, ../scss/xl.scss */
+.page-node .node-product-display img {
+  margin: 10px auto;
+  border: 1px solid #686963;
+  display: inline; }
+/* line 46, ../scss/xl.scss */
+.page-node .node-product-display .field-commerce-price {
+  margin-left: 30%;
+  margin-top: 1em;
+  width: 20%;
+  display: inline-block; }
+  /* line 52, ../scss/xl.scss */
+  .page-node .node-product-display .field-commerce-price .field-items {
+    font-size: 16px; }
+/* line 57, ../scss/xl.scss */
+.page-node .node-product-display .field-type-commerce-product-reference {
+  width: 20%;
+  display: inline-block; }
+  /* line 61, ../scss/xl.scss */
+  .page-node .node-product-display .field-type-commerce-product-reference .field-label {
+    display: none; }
+/* line 66, ../scss/xl.scss */
+.page-node .node-product-display .field-type-text-with-summary {
+  font-size: 18px; }
+/* line 71, ../scss/xl.scss */
+.page-node .node-product-display div.field.field-name-field-ronald-img.field-type-image.field-label-above > div.field-label {
+  display: none; }

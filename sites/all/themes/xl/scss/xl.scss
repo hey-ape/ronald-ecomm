@@ -25,6 +25,50 @@ a {
     }
 }
 
-#block-system-main > div > div.view-content > table > tbody > tr.row-1.row-first {
+#block-system-main > div > div.view-content > table > tbody > tr.row-*.row-* {
     margin: 5%;
+}
+
+.views-view-grid {
+  width: 100%;
+}
+
+
+
+/* PRODUCT DISPLAY */
+.page-node .node-product-display {
+    img {
+        margin: 10px auto;
+        border: 1px solid $darkGray;
+        display: inline;
+    }
+
+    .field-commerce-price {
+        margin-left: 30%;
+        margin-top: 1em;
+        width: 20%;
+        display: inline-block;
+
+        .field-items {
+            font-size: 16px;
+        }
+    }
+
+    .field-type-commerce-product-reference {
+        width: 20%;
+        display: inline-block;
+
+        .field-label {
+            display: none;
+        }
+    }
+
+    .field-type-text-with-summary {
+        font-size: 18px;
+    }
+
+    //hide custom field name for img
+    div.field.field-name-field-ronald-img.field-type-image.field-label-above > div.field-label {
+        display: none;
+    }
 }
